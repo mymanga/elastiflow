@@ -1,26 +1,3 @@
-# This legacy version of ElastiFlow&trade; is now deprecated.
-
-# [Try the new ElastiFlow&trade;!!!](https://docs.elastiflow.com/docs/)
-
-## PLEASE NOTE: This repository remains for historical purposes, however no part of this legacy solution is shared with the next generation of ElastiFlow&trade;. To install the new solution please refer to the documentation at [docs.elastiflow.com](https://docs.elastiflow.com/docs/). For assistance with the new solution, please join the [ElastiFlow Community Slack](https://join.slack.com/t/elastiflowcommunity/shared_invite/zt-lv54rhcx-7esE8r8cqggE5mQlShftpA).
-
-Now that the new ElastiFlow&trade; Unified Flow Collector is generally available, the legacy Logstash-based solution in this repository is deprecated. It will remain here for historical purposes, but will not receive updates. You are encouraged to try out the new collector. See more details below.
-
-# We have released the next generation of ElastiFlow&trade; which introduces the new ElastiFlow Unified Flow Collector for Netflow, IPFIX and sFlow.
-
-### Some of the enhancements included in the all-new collector include:
-
-* **Proper management templates from different devices. - NO MORE template conflicts!**
-* **Improved Scalability - Over 10x more flows/sec than Logstash, over 3x more than Filebeat!**
-* **Support for Option Templates - Dynamic enrichment of network interface name and application names and more!**
-* **Telemetry Support - sFlow Counter Samples and other metrics from Cisco, Calix and more!**
-* **Gracefully handles “unknown” Fields - No more dropped flows when a single unsupported field is encountered.**
-* **Fully decodes and translates all available data - DSCP, TCP Options, ECN, Fragmentation Flags, and more.**
-
-### Get Started with the next generation of ElastiFlow... [HERE](https://docs.elastiflow.com/docs/)
-
-### You can also join the ElastiFlow community Slack... [HERE](https://join.slack.com/t/elastiflowcommunity/shared_invite/zt-lv54rhcx-7esE8r8cqggE5mQlShftpA)
-
 ElastiFlow&trade; provides network flow data collection and visualization using the Elastic Stack (Elasticsearch, Logstash and Kibana). It supports Netflow v5/v9, sFlow and IPFIX flow types (1.x versions support only Netflow v5/v9).
 
 ![ElastiFlow&trade;](https://user-images.githubusercontent.com/10326954/89781356-727ede00-db13-11ea-8130-73562a8593f8.png)
